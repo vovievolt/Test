@@ -4,10 +4,22 @@ body {
 div {
   outline: yellow 1px solid;
 }
-.logo_container {
+h1 {
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0;
+}
+h2 {
+  color: #223E4A;
+  font-size: 2.3rem;
+}
+.container {
   max-width: 920px;
   margin-left: auto;
   margin-right: auto;
+}
+.logo_container {
   margin-top: 30px;
   overflow: hidden;
 }
@@ -26,18 +38,76 @@ div {
 }
 .nav {
   margin-top: 20px;
-  width: 920px;
-  margin-left: auto;
-  margin-right: auto;
   background-color: rgba(0, 0, 0, 0.25);
 }
 .nav ol {
-  padding: 35px;
-  padding-top: 16px;
+  overflow: hidden;
+  list-style: none;
+  padding-left: 20px;
+  margin: 0;
 }
 .nav li {
-  display: block;
   float: left;
   color: white;
-  padding: 0 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-right: yellow 1px solid;
+}
+.about_container {
+  margin-top: 10px;
+  background-color: #87AA82;
+  overflow: hidden;
+}
+.image {
+  padding: 35px;
+  float: left;
+}
+.image img {
+  width: 125px;
+}
+.text {
+  float: left;
+  width: 490px;
+  margin-left: 35px;
+  margin-top: 35px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.meat_section {
+  margin-top: 10px;
+  overflow: hidden;
+  min-height: 500px;
+}
+.menu {
+  width: 195px;
+  float: left;
+  height: 500px;
+  background-color: #96AFAC;
+}
+.menu ul {
+  list-style: none;
+  margin: 0;
+  margin-top: 20px;
+  color: white;
+  margin-right: 35px;
+}
+.menu ul li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: white 1.5px solid;
+}
+.how_we_work {
+  background-color: #DBD8C5;
+  float: left;
+  overflow: hidden;
+  width: 725px;
+  height: 500px;
+  color: #223E4A;
+}
+.info_text {
+  margin-left: 35px;
+  margin-right: 35px;
 }
