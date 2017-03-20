@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300");
+
+body {
+  background-color: #f2f2f2;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+* {
+  outline: 1px dotted blue;
+}
+
+.header {
+  background-color: #2d303a;
+  height: 90px;
+  border-bottom: 6px solid #323746;
+}
+
+.nav {
+  color: white;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
+  float: left;
+  font-size: 1.4rem;
+  margin-top: 35px;
+}
+.salmon {
+  color: #f06c64;
+}
+
+.links {
+  color: #494e62;   /* for the bullet points */
+  float: right;
+  margin-top: 40px;
+  font-size: 0.75rem;
+}
+
+.links a {
+  text-decoration: none;
+  color: white;
+  padding: 0 10px;
+}
+
+.banner {
+  background-color: #f16c65;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.banner img {
+  width: 100%;
+  max-width: 960px;
+}
+
+.our_services {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.our_services h1 {
+  font-weight: bold;
+  color: #666d89;
+}
+
+.column {
+  float: left;
+  min-width: 320px;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 610px) {  /* applies to any screen less than 480px */
+  .logo {
+    float: none;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 20px;
+  }
+  .links {
+    float: none;
+    margin-top: 10px;
+    text-align: center;
+  }
+}
