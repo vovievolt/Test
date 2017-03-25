@@ -10,6 +10,10 @@ body {
   outline: 1px dotted blue;
 }
 
+p {
+  color: #666d89;
+}
+
 .header {
   background-color: #2d303a;
   height: 90px;
@@ -60,6 +64,9 @@ body {
   max-width: 960px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  overflow: hidden;
 }
 
 .our_services h1 {
@@ -69,11 +76,34 @@ body {
 
 .column {
   float: left;
-  min-width: 320px;
-  max-width: 100%;
+  width: 320px;
 }
 
-@media screen and (max-width: 610px) {  /* applies to any screen less than 480px */
+.icon_box_holder {
+  float: left;
+  margin-bottom: 30px;
+}
+
+.icon_box_holder h2 {
+  color: #666d89;
+  margin: 0;
+}
+
+.icon_box_holder p {
+  font-size: 0.7rem;
+}
+
+.icon_box_holder img {
+  width: 15%;
+  max-width: 50px;
+  float: left;
+}
+.icon_box_holder_text {
+  float: left;
+  width: 85%;
+}
+
+@media screen and (max-width: 610px) {  /* applies to any screen less than 610px */
   .logo {
     float: none;
     text-align: center;
@@ -84,5 +114,12 @@ body {
     float: none;
     margin-top: 10px;
     text-align: center;
+  }
+}
+@media screen and (max-width: 960px) {
+  .column {
+    min-width: 320px;
+    max-width: 920px;
+    wdth: 100%;
   }
 }
